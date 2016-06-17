@@ -9,13 +9,12 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/LHCoder2016/LHCarouseTools"
   s.license      = "MIT"
   s.author             = { "刘虎" => "517829514@qq.com" }
-  s.source       = { :git => "https://github.com/LHCoder2016/LHCarouseTools.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/LHCoder2016/LHCarouseTools.git", :tag => s.version.to_s }
   s.source_files  = "LHCarouselToolsDemo/LHCarouselTools/*"
   s.framework  = "SDWebImage"
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.dependency 'SDWebImage', '~> 3.8.1'
-
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
