@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "刘虎" => "517829514@qq.com" }
   s.source       = { :git => "https://github.com/LHCoder2016/LHCarouseTools.git", :tag => "0.0.1" }
-  s.source_files  = "LHCarouseTools/LHCarouselToolsDemo/LHCarouselToolsDemo/LHCarouselTools/**/*.{h,m}"
+  s.source_files  = "LHCarouselToolsDemo/LHCarouselTools/*"
   s.framework  = "SDWebImage"
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
