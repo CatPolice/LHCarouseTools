@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "刘虎" => "517829514@qq.com" }
   s.source       = { :git => "https://github.com/LHCoder2016/LHCarouseTools.git", :tag => s.version.to_s}
-  s.source_files  = 'LHCarouseTools/*.{h,m}'
+  s.source_files  = 'LHCarouseTools/*'
   s.framework  = 'UIKit', 'Foundation'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
