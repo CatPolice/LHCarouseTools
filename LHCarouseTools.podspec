@@ -9,11 +9,17 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/LHCoder2016/LHCarouseTools"
   s.license      = "MIT"
   s.author             = { "刘虎" => "517829514@qq.com" }
-  s.source       = { :git => "https://github.com/LHCoder2016/LHCarouseTools.git", :tag => s.version.to_s}
+  s.source       = { 
+                     :git => "https://github.com/LHCoder2016/LHCarouseTools.git", 
+                     :tag => s.version.to_s
+    
+  }
+  s.platform     = :ios, '7.0'
   s.source_files  = 'LHCarouseTools/**/*'
+  s.public_header_files = 'LHCarouseTools/**/*.h'
   s.framework  = 'UIKit', 'Foundation'
   s.requires_arc = true
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
   s.dependency 'SDWebImage', '~> 3.8.1'
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
