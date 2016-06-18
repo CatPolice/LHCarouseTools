@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
     
   }
   s.platform     = :ios, '7.0'
-  s.source_files  = 'LHCarouseTools/LHCarouselTools/LHCarouselTools.h','LHCarouseTools/LHCarouselTools/LHCarouselTools.m'
-  s.public_header_files = 'LHCarouseTools/LHCarouselTools/LHCarouselTools.h'
+  s.source_files  = 'LHCarouselTools/LHCarouselTools.h','LHCarouselTools/LHCarouselTools.m'
+  s.public_header_files = 'LHCarouselTools/LHCarouselTools.h'
   s.framework  = 'UIKit', 'Foundation'
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
