@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
     
   }
   s.platform     = :ios, '7.0'
-  s.source_files  = 'LHCarouseTools/**/*'
-  s.public_header_files = 'LHCarouseTools/**/*.h'
+  s.source_files  = 'LHCarouseTools/Classes/**/*'
+  s.public_header_files = 'LHCarouseTools/Classes/**/*.h'
   s.framework  = 'UIKit', 'Foundation'
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
